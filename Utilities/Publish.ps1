@@ -5,10 +5,9 @@
    Publishes the Remotely clients.
    To deploy the server, supply the following arguments: -rid win10-x64 -outdir path\to\dir -hostname https://mysite.mydomain.com
 .COPYRIGHT
-   Copyright 2020 Translucency Software.  All rights reserved.
 .EXAMPLE
    Run it from the Utilities folder (located in the solution directory).
-   Or run "powershell -f Publish.ps1 -rid win10-x64 -outdir path\to\dir -hostname https://mysite.mydomain.com
+   Or run "powershell -f Publish.ps1 -rid linux-x64 -outdir C:\Remotely Build\ -hostname https://Remotely.RhinoCTec.com
 #>
 
 param (
